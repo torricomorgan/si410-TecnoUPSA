@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fncESP-02", "fncESP-02\fncESP-02.csproj", "{0F8A3D81-3184-4BB8-8EAC-EA3A42659953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiSendDevice-02", "apiSendDevice-02\apiSendDevice-02.csproj", "{A725AE6D-D26A-4C9B-ABEF-3D04216AE644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiSendDevice-02", "apiSendDevice-02\apiSendDevice-02.csproj", "{A725AE6D-D26A-4C9B-ABEF-3D04216AE644}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fncGetDatos-tecnoupsa", "fncGetDatos-tecnoupsa\fncGetDatos-tecnoupsa.csproj", "{780C95A6-37E6-4DB4-8117-ABA637639DBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A725AE6D-D26A-4C9B-ABEF-3D04216AE644}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A725AE6D-D26A-4C9B-ABEF-3D04216AE644}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A725AE6D-D26A-4C9B-ABEF-3D04216AE644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{780C95A6-37E6-4DB4-8117-ABA637639DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780C95A6-37E6-4DB4-8117-ABA637639DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780C95A6-37E6-4DB4-8117-ABA637639DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780C95A6-37E6-4DB4-8117-ABA637639DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

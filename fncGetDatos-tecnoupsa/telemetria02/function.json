@@ -1,0 +1,27 @@
+﻿{
+  "bindings": [
+    {
+      "name": "req",
+      "authLevel": "anonymous",
+      "methods": [
+        "get"
+      ],
+      "direction": "in",
+      "type": "httpTrigger"
+    },
+    {
+      "name": "$return",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "datos2",
+      "direction": "in",
+      "type": "cosmosDB",
+      "databaseName": "dbTelemetria",
+      "collectionName": "esp02",
+      "connectionStringSetting": "si410-tecnoupsa_DOCUMENTDB",
+      "sqlQuery": "SELECT top 1 * FROM c order by c.EventDateTime desc"
+    }
+  ]
+}
